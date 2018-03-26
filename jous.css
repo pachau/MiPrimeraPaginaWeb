@@ -1,0 +1,136 @@
+header{
+	background-color:black ;
+	font-family:'Arial';
+	font-size:10;
+	color: black;
+	border-bottom: solid 2px #08A364;
+	position: relative;
+	height: 150px;
+
+}
+
+header .logo img{
+	width: 150px;
+}
+.logo{
+	
+	position: absolute;
+	left: 10px;
+	top: 25px;
+
+
+}
+.menu{ 
+	position: absolute;
+right:10px;
+   top:25;
+}
+.menu ul li{
+	display: inline-block;
+	text-align: center;
+	padding: 5px 10px 10px 10px;
+
+}
+.menu ul li:hover{
+	background-color: #08A364;
+}
+
+
+fieldset{
+	border: solid 0px #08A364 ;
+	position: relative;
+ 	width: 30%;
+  	margin: 0 auto;
+}
+.control{
+    padding: 10px;
+    font-family: 'Raleway',sans-serif;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    text-align: ;
+    
+
+}
+.control{
+	min-height:50px;
+	width: 440px ;
+}
+label {
+
+font-size: 11px;
+letter-spacing: 2px;
+text-transform: uppercase;
+display: inline-block;
+max-width: 100px
+margin-bottom:5px;
+}
+.spam{
+	 color: red;
+
+}
+input[type=text]:focus{
+outline: 0 none;
+border: solid 1px #08A364 ;
+
+}
+input[type=submit]{
+ border: 10;
+ background-color: #08A364;
+font-family: ´enviar´,sans-serif;
+color:white;
+padding: 0 28px;
+height: 55px;
+line-height: 53px;
+letter-spacing: 1px;
+
+}
+input[type=submit]:hover{
+	background-color: #08A364;
+
+}
+input[type=text]{
+    height: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 11px;
+    line-height: 1.6;
+    display: block;
+}
+.title h2{
+	font-size: 58px;
+	margin-top: 0;
+	line-height: 1.1;
+	margin-bottom: 10px;
+	font-family: ´relaway´,sans-serif;
+
+}
+.title{ 
+text-align: center;
+
+
+ }
+ hr{
+
+ 	width: 45px;
+ 	margin: 20px;
+ 	border-top: 1px solid #00de8b;
+ 	margin: 30px auto;
+
+
+ }
+ .punto:before{
+ 	content: :".";
+ 	color: #00de8b
+ }
+ .title p {
+    font-size: 18px;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-weight: 400;
+}
+p {
+    color: #6d747c;
+}

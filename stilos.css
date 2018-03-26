@@ -1,0 +1,41 @@
+header{
+	background-color: green;
+
+}
+.menu ul li{
+	display: inline-block;
+	text-aling: right;
+	padding: 5px 10px 10px 10px;
+}
+.menu ul li:hover{
+	background-color: #08A364;
+
+}
+.control{
+	padding: 10px;
+	font-family: "Dosis", sans-serif;
+}
+
+label{
+	display: block;
+
+}
+span{
+	color: red;
+
+}
+
+input:focus{
+	outline: 0 none;
+	border: solid 2px #08A364;
+}
+input[type=submit]{
+	background-color: #00de8b;
+	font-family: "Dosis", sans-serif;
+	font-size: 1.2em;
+	color: white;
+	padding: 5px 15px 5px 15px;
+
+}
+input[type=submit]:hover{
+	background-color: #08A364;
